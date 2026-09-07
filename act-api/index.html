@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Consulta de APIs</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Consulta de APIs Públicas</h1>
+    </header>
+
+
+    <main>
+
+        <!-- POKEAPI -->
+
+        <section>
+
+            <h2>PokéAPI</h2>
+
+            <button onclick="consultarPokemon()">
+                Consultar Pokémon
+            </button>
+
+            <div id="pokemon"></div>
+
+        </section>
+
+
+        <!-- RICK AND MORTY -->
+
+        <section>
+
+            <h2>Rick and Morty API</h2>
+
+            <button onclick="consultarPersonajes()">
+                Consultar personajes
+            </button>
+
+            <div id="rick"></div>
+
+        </section>
+
+
+        <!-- JSONPLACEHOLDER -->
+
+        <section>
+
+            <h2>JSONPlaceholder</h2>
+
+            <button onclick="consultarUsuarios()">
+                Consultar usuarios
+            </button>
+
+            <div id="usuarios"></div>
+
+        </section>
+
+    </main>
+
+
+    <script src="datos.js"></script>
+
+</body>
+</html>
