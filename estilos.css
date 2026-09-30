@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    background-color: #f4f4f4;
+
+}
+
+
+header {
+
+    text-align: center;
+
+    padding: 30px;
+
+    background-color: #124;
+
+    color: white;
+
+}
+
+
+main {
+
+    max-width: 1200px;
+
+    margin: auto;
+
+    padding: 30px;
+
+}
+
+
+section {
+
+    background-color: white;
+
+    padding: 25px;
+
+    margin-bottom: 30px;
+
+    border-radius: 10px;
+
+}
+
+
+h2 {
+
+    margin-top: 0;
+
+}
+
+
+/* FORMULARIOS */
+
+form {
+
+    display: flex;
+
+    gap: 10px;
+
+    margin-bottom: 20px;
+
+}
+
+
+input {
+
+    flex: 1;
+
+    padding: 11px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+
+    font-size: 15px;
+
+}
+
+
+button {
+
+    padding: 10px 20px;
+
+    border: none;
+
+    background-color: #124;
+
+    color: white;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+}
+
+
+button:hover {
+
+    background-color: #124;
+
+}
+
+
+/* TABLAS */
+
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+}
+
+
+th {
+
+    background-color: #124;
+
+    color: white;
+
+    padding: 12px;
+
+    text-align: left;
+
+}
+
+
+td {
+
+    padding: 10px;
+
+    border-bottom: 1px solid #ddd;
+
+}
+
+
+tr:hover {
+
+    background-color: #f2f2f2;
+
+}
+
+
+/* IMÁGENES */
+
+td img {
+
+    width: 70px;
+
+    height: 70px;
+
+    object-fit: contain;
+
+}
+
+
+/* ERRORES */
+
+.error {
+
+    color: #b00020;
+
+    font-weight: bold;
+
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 600px) {
+
+    main {
+
+        padding: 15px;
+
+    }
+
+
+    form {
+
+        flex-direction: column;
+
+    }
+
+
+    button {
+
+        width: 100%;
+
+    }
+
+
+    table {
+
+        font-size: 14px;
+
+    }
+
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>APIs</title>
+
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+
+
+<body>
+
+    <header>
+
+        <h1>Aplicación Cliente - Búsqueda de APIs</h1>
+
+        <p>
+            Consulta y filtrado de información de APIs públicas
+        </p>
+
+    </header>
+
+
+    <main>
+
+
+        <!-- POKÉAPI -->
+
+        <section>
+
+            <h2>PokéAPI</h2>
+
+            <form id="formPokemon">
+
+                <input
+                    type="text"
+                    id="busquedaPokemon"
+                    placeholder="Escribe un Pokémon"
+                    required
+                >
+
+                <button type="submit">
+                    Buscar
+                </button>
+
+            </form>
+
+
+            <div id="pokemon"></div>
+
+        </section>
+
+
+
+        <!-- RICK AND MORTY -->
+
+        <section>
+
+            <h2>Rick and Morty API</h2>
+
+            <form id="formRick">
+
+                <input
+                    type="text"
+                    id="busquedaRick"
+                    placeholder="Escribe un personaje"
+                    required
+                >
+
+                <button type="submit">
+                    Buscar
+                </button>
+
+            </form>
+
+
+            <div id="rick"></div>
+
+        </section>
+
+
+
+        <!-- JSONPLACEHOLDER -->
+
+        <section>
+
+            <h2>JSONPlaceholder</h2>
+
+            <form id="formUsuario">
+
+                <input
+                    type="text"
+                    id="busquedaUsuario"
+                    placeholder="Escribe un usuario o nombre"
+                    required
+                >
+
+                <button type="submit">
+                    Buscar
+                </button>
+
+            </form>
+
+
+            <div id="usuarios"></div>
+
+        </section>
+
+
+    </main>
+
+
+    <script src="datos.js"></script>
+
+</body>
+
+</html>
